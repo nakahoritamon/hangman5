@@ -17,7 +17,7 @@ def hungman(letter):
         print(bar)
         i=input("アルファベットを一文字入力してください。")
         if i in value:
-            k=letter.index(i)
+            k=value.index(i)
             bar[k]=i
             value[k]="?"
             print('正解です！！')
