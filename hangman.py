@@ -40,4 +40,4 @@ def hungman(letter):
         hungman(letter)
       
 
-hungman("cat")
+hungman("elephant")
